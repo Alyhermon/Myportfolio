@@ -1,4 +1,4 @@
-export default function AboutPage(){
+export default function AboutmePage(){
     return (
     <>
     <p>A lo largo de mi trayectoria profesional, he adquirido experiencia significativa
@@ -16,5 +16,6 @@ export default function AboutPage(){
     problemas de software, así como la colaboración con equipos de desarrollo para
     garantizar la resolución eficiente de defectos.
     
+    </>
     )
 }
