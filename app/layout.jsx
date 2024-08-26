@@ -8,7 +8,6 @@ export default function RootLayout({ children }) {
         <title> My App </title>
       </head>
       <body>
-      <Nabvar/>
         {children}
         </body>
     </html>
