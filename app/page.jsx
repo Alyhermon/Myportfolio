@@ -1,3 +1,6 @@
 export default function HomePage() {
-  return 
+  return (
+    <h1> I'M HAPPY</h1>
+  )
+  
 }
