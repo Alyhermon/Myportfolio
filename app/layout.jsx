@@ -1,4 +1,4 @@
-import Nabvar from '../Components/Nabvar'
+import Nabvar from './Components/Nabvar'
 
 export default function RootLayout({ children }) {
   return (
