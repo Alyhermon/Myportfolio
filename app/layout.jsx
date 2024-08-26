@@ -7,6 +7,7 @@ export default function RootLayout({ children }) {
         <title> My App </title>
       </head>
       <body>
+        <h1>Alina</h1>
         {children}
         </body>
     </html>
