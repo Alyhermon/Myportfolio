@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
     // Configuración para la exportación estática
     trailingSlash: true, // Asegura que las URLs terminen en '/'
     images: {
