@@ -1,0 +1,70 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--secondary-color);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--accent-color);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navLinks li a {
+  color: var(--foreground-color);
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navLinks li a:hover {
+  color: var(--primary-color);
+  transform: scale(1.1);
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburgerLine {
+  width: 25px;
+  height: 3px;
+  background-color: var(--foreground-color);
+  margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+  }
+
+  .navLinks.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
