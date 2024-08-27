@@ -4,7 +4,7 @@ export default function AboutmePage(){
     return (
 
         <div className={styles.container}>
-        <h1 className={styles.title}>About Me</h1>
+        <h1 className={styles.title}>About Mei</h1>
         <p className={styles.description}>
           Hi! I'm Aly, a passionate web developer with a love for coding, creativity, and continuous learning. My journey in tech began with a curiosity for how things work and has since evolved into a career filled with exciting challenges and projects.
         </p>

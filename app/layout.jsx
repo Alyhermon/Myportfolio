@@ -1,5 +1,5 @@
-import './globals.css'; // Importa los estilos globales
-import Head from 'next/head'; // Importa el componente Head
+import './globals.css';
+import Head from 'next/head';
 import Navbar from './components/navbar';
 
 

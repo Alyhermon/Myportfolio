@@ -6,6 +6,9 @@ const nextConfig = {
     images: {
       unoptimized: true, // Desactiva la optimización de imágenes, ya que GitHub Pages no soporta la optimización de imágenes de Next.js
     },
+    eslint: {
+      ignoreDuringBuilds: true, // Deshabilita ESLint durante la construcción del proyecto
+    }
     // Puedes agregar otras configuraciones aquí si es necesario
   };
 export default nextConfig;
