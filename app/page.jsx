@@ -27,7 +27,7 @@ export default function HomePage() {
           </p>
           <div className={styles.buttons}>
             <a href="#" className={styles.button}>Descargar CV</a>
-            <a href="#" className={styles.button}>Contacto</a>
+            <a href="/contacts" className={styles.button}>Contactarme</a>
           </div>
         </div>
       </main>

@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <a href="#">Alina Hermon</a>
+        <a href="#">Alina M. Hermon Castro</a>
       </div>
       <div className={styles.hamburger} onClick={toggleMenu}>
         <div className={styles.bar}></div>
