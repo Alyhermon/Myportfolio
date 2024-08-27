@@ -13,7 +13,6 @@ export default function RootLayout({ children }) {
             rel="stylesheet"
           />
         </Head>
-        <Navbar />
         {children}
       </body>
     </html>
